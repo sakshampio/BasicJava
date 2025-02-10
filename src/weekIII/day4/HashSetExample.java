@@ -1,0 +1,27 @@
+package weekIII.day4;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class HashSetExample {
+    public static void hashSet(){
+        Set<String> set1 = new HashSet <>();
+        set1.add("a");
+        set1.add("b");
+        set1.add("a");
+        System.out.println("set1 : " + set1);
+        Book book1 = new Book("Walden", "Henry Thoreau", 1854);
+        Book book2 = new Book("Walden", "Henry Thoreau", 1854);
+        Set<Book> set2 = new HashSet<>();
+       if(book2.toString().equals(book1.toString())){
+           System.out.println("yes");
+        }
+       set2.add(book2);
+       set2.add(book1);
+        System.out.println("set2: " +  set2);
+    }
+
+    public static void main(String[] args) {
+        hashSet();
+    }
+}

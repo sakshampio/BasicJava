@@ -1,0 +1,3 @@
+Choose descriptive names that reflect the functionality and purpose of the package. For instance, for utility classes.
+Suppose you are working on a project named MyApp for the domain example.com. You might structure your packages like this:
+hiiiiiiiiiiiiiii
